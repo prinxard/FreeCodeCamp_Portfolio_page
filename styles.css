@@ -1,0 +1,62 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+nav>a {
+    text-decoration: none;
+    text-align: center;
+    padding: 1.3rem;
+    color: inherit;
+
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#projects {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 9, 1) 35%, rgba(39, 146, 176, 1) 79%, rgba(28, 94, 110, 1) 86%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+.projects-header {
+    text-align: center;
+    width: 100%;
+}
+
+.project-tile {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
