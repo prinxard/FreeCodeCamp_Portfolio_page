@@ -1,57 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 </head>
+
 <body>
-    
-<nav id="navbar" class="nav-bar">
-<a href="nav-link">About</a>
-<a href="nav-link">Work</a>
-<a href="nav-link">Contact</a>
-<a href="nav-link">Blog</a>
-</nav>
 
-<main>
+    <nav id="navbar" class="nav-bar">
+        <a href="nav-link">About</a>
+        <a href="nav-link">Work</a>
+        <a href="nav-link">Contact</a>
+        <a href="nav-link">Blog</a>
+    </nav>
 
-    <section id="welcome-section">
-<h1>
-Hi, My name is Prince..I'm a Software Developer!
-</h1>
+    <main>
 
-    </section>
+        <section id="welcome-section">
+            <h1>
+                Hi, My name is Prince..
+            </h1>
+            <p>I'm a Software Developer!</p>
 
-    <section id="projects">
-        <h1 class="projects-header">Here are some of my projects</h1>
-        <div class="projects-grid">
-        <figure class="project-tile">
-            <h3 class="project-title">E-commerce</h3>
-            <img src="./images/E-commerce.png" alt="">
-        </figure>
-        <figure class="project-tile">
-            <h3 class="project-title">COVID awareness site</h3>
-            <img src="./images/covid.png" alt="">
-        </figure>
-        <figure class="project-tile">
-            <h3 class="project-title">Play Drum</h3>
-            <img src="./images/Play-drum.png" alt="">
-        </figure>
-        <figure class="project-tile">
-            <h3 class="project-title">To do</h3>
-            <img src="./images/To-do.png" alt="">
-        </figure>
-        <figure class="project-tile">
-            <h3 class="project-title">Newsletter App</h3>
-            <img src="./images/Newsletter.png" alt="">
-        </figure>
-    </div>
-    </section>
-</main>
+        </section>
 
+        <section id="projects">
+            <h1 class="projects-header">Here are some of my projects</h1>
+            <div class="projects-grid">
+                <figure class="project-tile">
+                    <img src="./images/E-commerce.png" alt="">
+                    <h3 class="project-title">E-commerce</h3>
+                </figure>
+                <figure class="project-tile">
+                    <img src="./images/covid.png" alt="">
+                    <h3 class="project-title">COVID awareness site</h3>
+                </figure>
+                <figure class="project-tile">
+                    <img src="./images/Play-drum.png" alt="">
+                    <h3 class="project-title">Play Drum</h3>
+                </figure>
+                <figure class="project-tile">
+                    <img src="./images/To-do.png" alt="">
+                    <h3 class="project-title">To do</h3>
+                </figure>
+                <figure class="project-tile">
+                    <img src="./images/Newsletter.png" alt="">
+                    <h3 class="project-title">Newsletter App</h3>
+                </figure>
+            </div>
+        </section>
 
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <section id="contact" class="contact-section">
+            <div class="contact-section-header">
+                <h2>Let's work together...</h2>
+                <p>How do you take your coffee?</p>
+            </div>
+            <div class="contact-links">
+                <a id="profile-link" href="https://github.com/prinxard" target="_blank" class="btn contact-details"><i
+                        class="fab fa-github"></i> GitHub</a>
+                <a href="https://twitter.com/prinxard" target="_blank" class="btn contact-details"><i
+                        class="fab fa-twitter"></i> Twitter</a>
+                <a href="mailto:prinxard@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a
+                    mail</a>
+                <a href="tel:+2348084785687" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 </body>
+
 </html>
