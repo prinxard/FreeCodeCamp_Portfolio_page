@@ -102,12 +102,12 @@ img:hover {
     padding-top: 30px;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 500px) {
     .nav-bar {
         justify-content: flex-start;
         flex-direction: column;
     }
-    .projects-header{
+    .projects-grid{
         flex-direction: column;
     }
 }
