@@ -42,6 +42,19 @@ nav > a {
     background: #303841;
 }
 
+#welcome-section > .tech-stack{
+    list-style-type: none;
+}
+
+#welcome-section > .tech-stack > li:before{
+    content: "\00BB \0020";
+ }
+ 
+ #welcome-section > .tech-stack > li:hover{
+     background: #555;
+     cursor: pointer;
+ }
+
 #projects {
     background: #45567d;
 }
