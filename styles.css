@@ -119,7 +119,7 @@ img:hover {
     padding-top: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
     .nav-bar {
         justify-content: flex-start;
         flex-direction: column;
